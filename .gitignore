@@ -1,0 +1,48 @@
+# Banco de dados local (NUNCA subir para o GitHub — contém dados dos usuários)
+docstamp.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Sessão salva (login automático)
+.session
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.eggs/
+
+# Ambiente virtual
+venv/
+env/
+.venv/
+.env/
+
+# VS Code
+.vscode/settings.json
+.vscode/*.code-workspace
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs e temporários
+*.log
+*.tmp
+_carimbados/
+
+# Arquivos internos e pastas de teste
+.deps_installed
+Nova pasta/
